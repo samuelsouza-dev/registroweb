@@ -1,9 +1,33 @@
-<h1><img src='https://cdn-icons-png.flaticon.com/512/4312/4312094.png' style='width:40px'>Página de cadastro e login de clientes</h1>
+<h1>
+  <img src="https://cdn-icons-png.flaticon.com/512/4312/4312094.png" width="40" alt="">
+  Página de Cadastro de Clientes
+</h1>
 
-<h2>Tecnologias utilizadas:</h2>
+Formulário de cadastro responsivo, feito para estudar e praticar HTML e CSS.
 
-<span> <img src="https://static-00.iconduck.com/assets.00/file-type-css-icon-451x512-eftbqujz.png" style="width:20px"> </span> CSS <br>
-<span> <img src="https://static-00.iconduck.com/assets.00/file-type-html-icon-451x512-vzyw6pa7.png" style="width:20px"> </span> HTML <br>
-## 
-<h3><img src="https://cdn-icons-png.flaticon.com/512/11476/11476497.png" style=width:50px> Motivações:</h3> 
-<p> Página feita com o intuito de estudar e colocar em prática minhas habilidades nas tecnologias acima.</p>
+## Funcionalidades
+
+- **Campos do formulário:** nome completo, usuário, e-mail, telefone, senha, confirmação de senha e gênero.
+- **Layout responsivo:** o CSS tem ajustes para telas menores.
+
+A interface está em inglês.
+
+## Tecnologias
+
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" alt=""> HTML
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20" alt=""> CSS
+
+## Como executar
+
+O projeto não precisa de instalação. Clone o repositório:
+
+```bash
+git clone https://github.com/samuelsouza-dev/registroweb.git
+```
+
+Depois, abra o arquivo `projeto registro/index.html` no navegador.
+
+## Limitações conhecidas
+
+- **Apenas visual:** o formulário não envia nem salva os dados.
+- **Sem validações próprias:** não há JavaScript, então a página não confere, por exemplo, se as duas senhas são iguais.
